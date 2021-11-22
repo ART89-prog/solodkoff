@@ -1,4 +1,4 @@
-.content.exchanger {
+.exchanger .content {
     width: 100%;
 }
 .exchanger .text_block {
@@ -7,6 +7,7 @@
 .exchanger_links {
     display: flex;
     align-items: center;
+    margin-bottom: 36px;
 }
 .exchanger_links a {
     text-decoration: none;
@@ -30,3 +31,242 @@
     color: #fff;
     background: #000;
 }
+.exchanger_list-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f4f4f4;
+    padding: 17px 14px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #010101;
+}
+.list-head-number {
+    width: 3.1%;
+    text-align: center;
+}
+.list-head-name {
+    width: 17.5%;
+    text-align: center;
+}
+.list-head-ratings {
+    width: 16.9%;
+    text-align: center;
+}
+.list-head-bonus {
+    width: 15%;
+    text-align: center;
+}
+.list-head-status {
+    width: 13.75%;
+    text-align: center;
+}
+.list-head-sites {
+    width: 33.75%;
+    text-align: center;
+}
+
+
+.exchanger_list-body {
+    border-bottom: 1px solid #f0efef;
+    padding: 10px 14px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.list-body-number {
+    width: 3.1%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.list-body-name {
+    width: 17.5%;
+    text-align: center;
+}
+.list-body-name img {
+    width: 100%;
+}
+.list-body-ratings {
+    width: 16.9%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-body-bonus {
+    width: 15%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-body-bonus-summa {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-left: 14px;
+    white-space: nowrap;
+}
+.list-body-status {
+    width: 13.75%;
+    text-align: center;
+}
+.list-body-btns {
+    width: 33.75%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.list-body-btns .link {
+    color: #fff;
+    font-weight: 700;
+    line-height: 18px;
+    position: relative;
+    display: block;
+    min-width: 100px;    
+    padding: 8px 12px;
+    transition: box-shadow .2s linear;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #1e1e1e;
+    box-shadow: 0 2px 0 #000;
+}
+.list-body-btns .link:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 7px;
+    height: 14px;
+    margin: auto;
+    content: '';
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #ff9a00;
+}
+.list-body-btns .link.orange {
+    background: #ff9a00;
+    box-shadow: 0 2px 0 #c17500;
+}
+.list-body-btns > * + * {
+    margin-left: 10px;
+}
+
+.exchanger .show-more a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: #ff9a00;
+    background: #1e1e1e;
+    border-radius: 3px;    
+    text-align: center;
+    width: 136px;
+    height: 27px;
+    display: block;
+    margin: 29px auto 74px;
+}
+
+
+
+
+
+
+
+@media print, (max-width: 1439px) {
+    .content_flex.exchanger .content {
+        width: 100%;
+    }
+}
+
+
+@media print, (max-width: 1023px) {
+    .list-body-btns .link span {
+        display: none;
+    }
+    .list-body-btns .link img {
+        display: block !important;
+        margin-right: auto;
+        margin-left: auto;
+    }  
+    .list-body-btns .link {
+        min-width: auto;
+        padding: 8px 20px;
+    }  
+    .list-body-btns {
+        width: 23.75%;
+        justify-content: flex-end;
+    }
+    .list-head-sites {
+        width: 23.75%;
+    }
+    .list-head-name {
+        width: 27.5%;
+    }
+    .list-body-name {
+        width: 27.5%;
+    }
+}
+
+
+@media print, (max-width: 767px) {
+    .list-body-bonus-icon {
+        display: none;
+    }
+    .list-body-rating-mob {
+        display: block !important;
+        position: relative;
+        font-size: 16px;
+        line-height: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #e14e4e;
+    }
+    .list-body-rating-mob::after {
+        position: absolute;
+        background: url(../images/ic_star_mob.png);
+        width: 12px;
+        height: 11px;
+        right: -12px;
+        top: 3px;
+        content: "";
+    }
+    .exchanger_list-head {
+        display: none;
+    }
+    .list-body-status {
+        display: none;
+    }
+    .list-body-ratings {
+        display: none;
+    }
+    .list-body-bonus-summa {
+        font-size: 16px;
+        margin-left: 0px;
+        white-space: nowrap;
+    }
+    .list-body-btns {
+        width: 100%;
+        margin-left: auto;
+    }
+}
+
+
+
