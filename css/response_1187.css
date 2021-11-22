@@ -1,0 +1,782 @@
+@media print, (max-width: 1187px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    .content_flex .content
+    {
+        padding: 24px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs button
+    {
+        margin-bottom: 8px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .accordion_item + .accordion_item
+    {
+        margin-top: 24px;
+    }
+
+    .accordion .accordion_item .head .title
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .links
+    {
+        font-size: 13px;
+    }
+
+    header .links > * + *
+    {
+        margin-left: 20px;
+    }
+
+    header .links a .icon
+    {
+        margin-right: 6px;
+    }
+
+
+
+    header .socials a + a,
+    header .btns > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+
+    header .menu
+    {
+        width: calc(100% - 248px);
+    }
+
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 32px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    .text_block h2
+    {
+        font-size: 28px;
+    }
+
+    .text_block h3
+    {
+        font-size: 22px;
+    }
+
+
+    .text_block ol li,
+    .text_block ul li
+    {
+        padding-left: 36px;
+    }
+
+    .text_block ol li:before
+    {
+        left: 12px;
+    }
+
+    .text_block ul li:before
+    {
+        left: 16px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        padding: 16px 20px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 400px;
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 40px;
+        line-height: 115%;
+    }
+
+
+    .first_section .info .link
+    {
+        margin-top: 32px;
+    }
+
+
+    .first_section .categories
+    {
+        width: 332px;
+        padding-left: 40px;
+    }
+
+    .first_section .categories .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*------------------------
+        Telegram subscribe
+    ------------------------*/
+    .telegram_subscribe .title
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    .telegram_subscribe .link
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        margin-left: 32px;
+        padding: 5px 24px 5px 12px;
+    }
+
+    .telegram_subscribe .link img
+    {
+        height: 28px;
+        margin-right: 12px;
+    }
+
+
+
+    /*-------------
+        Ratings
+    --------------*/
+    .ratings .tabs,
+    .ratings .list
+    {
+        padding: 0 64px;
+    }
+
+    .ratings .list > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .ratings .item
+    {
+        padding-right: 40px;
+    }
+
+
+
+    /*---------------
+        Education
+    ---------------*/
+    .education .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .education .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .education .item .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .columns > *
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
+    .articles .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    .articles .big_article .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        width: 380px;
+    }
+
+
+
+    .articles .list > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*---------------
+        Last news
+    ---------------*/
+    .last_news .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .last_news .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .last_news .item
+    {
+        padding: 16px 20px;
+    }
+
+
+
+    /*-------------------
+        Currency info
+    -------------------*/
+    .currency_info + *
+    {
+        margin-top: 48px;
+    }
+
+
+    .currency_info .block_title
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*-------------------------------
+        Currency info - Main data
+    -------------------------------*/
+    .currency_info .main_data
+    {
+        padding-top: 8px;
+    }
+
+
+    .currency_info .main_data .info
+    {
+        width: 100%;
+    }
+
+
+    .currency_info .main_data .btns
+    {
+        display: none;
+    }
+
+
+    .currency_info .course_widget
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*---------------------------
+        Currency info - links
+    ---------------------------*/
+    .currency_info .links .item > a,
+    .currency_info .links .item > .btn
+    {
+        padding: 3px 18px;
+    }
+
+
+
+    /*-------------------------------
+        Currency info - Where buy
+    -------------------------------*/
+    .currency_info .where_buy
+    {
+        margin-top: 48px;
+    }
+
+
+    .currency_info .where_buy .row
+    {
+        margin-bottom: -16px;
+        margin-left: -16px;
+    }
+
+    .currency_info .where_buy .item
+    {
+        padding: 12px 16px 16px;
+    }
+
+    .currency_info .where_buy .row > *
+    {
+        width: calc(20% - 16px);
+        margin-bottom: 20px;
+        margin-left: 16px;
+    }
+
+
+
+    /*-------------------------
+        Stock exchange head
+    -------------------------*/
+    .stock_exchange_head .head .approved
+    {
+        display: none;
+    }
+
+
+    .stock_exchange_head .info .btns
+    {
+        width: 100%;
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+    .stock_exchange_head .info .btns .link
+    {
+        width: calc(50% - 10px);
+    }
+
+    .stock_exchange_head .info .btns > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+
+    .stock_exchange_head .links .row > *
+    {
+        width: calc(16.666% - 20px);
+    }
+
+
+    .stock_exchange_head .links a .icon
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Video review
+    ----------------------------------------*/
+    .stock_exchange_info .video_review .block_title
+    {
+        font-size: 28px;
+    }
+
+
+    .stock_exchange_info .video_review .video
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-----------------------------------
+        Stock exchange info - Anchors
+    -----------------------------------*/
+    .stock_exchange_info .anchors .row
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .stock_exchange_info .anchors .row > *
+    {
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .stock_exchange_info .anchors button
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*---------------------------------------
+        Stock exchange info - Rating info
+    ---------------------------------------*/
+    .stock_exchange_info .rating_info
+    {
+        margin-top: 48px;
+    }
+
+    .stock_exchange_info .rating_info .block_title
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*--------------------------------------------
+        Stock exchange info - Description info
+    --------------------------------------------*/
+    .stock_exchange_info .description_info
+    {
+        margin-top: 48px;
+    }
+
+
+    .stock_exchange_info .description_info .block_title
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Bonuses info
+    ----------------------------------------*/
+    .stock_exchange_info .bonuses_info
+    {
+        margin-top: 48px;
+    }
+
+
+    .stock_exchange_info .bonuses_info .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .stock_exchange_info .bonuses_info .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .stock_exchange_info .bonuses_info .item
+    {
+        padding: 24px;
+    }
+
+
+
+    /*-----------------------------------------
+        Stock exchange info - Register info
+    -----------------------------------------*/
+    .stock_exchange_info .register_info
+    {
+        margin-top: 48px;
+    }
+
+
+    .stock_exchange_info .register_info .block_title
+    {
+        font-size: 28px;
+    }
+
+
+
+    /*-------------------------------------------
+        Stock exchange info - Withdrawal info
+    -------------------------------------------*/
+    .stock_exchange_info .withdrawal_info
+    {
+        margin-top: 48px;
+    }
+
+
+    .stock_exchange_info .withdrawal_info .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .stock_exchange_info .withdrawal_info .vals
+    {
+        margin-top: 32px;
+        padding: 12px 28px;
+    }
+
+
+    .stock_exchange_info .withdrawal_info .payments
+    {
+        margin-top: 32px;
+    }
+
+    .stock_exchange_info .withdrawal_info .payments .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .stock_exchange_info .withdrawal_info .payments .row > *
+    {
+        width: calc(16.666% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Support info
+    ----------------------------------------*/
+    .stock_exchange_info .support_info
+    {
+        margin-top: 48px;
+    }
+
+
+    .stock_exchange_info .support_info .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .stock_exchange_info .support_info .messengers .title
+    {
+        font-size: 17px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .stock_exchange_info .support_info .faq
+    {
+        margin-top: 48px;
+    }
+
+    .stock_exchange_info .support_info .faq > .title
+    {
+        font-size: 17px;
+
+        margin-bottom: 16px;
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Reviews info
+    ----------------------------------------*/
+    .stock_exchange_info .reviews_info
+    {
+        margin-top: 48px;
+    }
+
+
+    .stock_exchange_info .reviews_info .block_title
+    {
+        font-size: 28px;
+    }
+
+
+    .stock_exchange_info .reviews_info .add_review form
+    {
+        padding: 16px;
+    }
+
+
+    .stock_exchange_info .reviews_info .list
+    {
+        margin-top: 24px;
+    }
+
+
+    .stock_exchange_info .reviews_info .review
+    {
+        padding-left: 36px;
+    }
+
+    .stock_exchange_info .reviews_info .review .reaply_btn
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*---------------------------
+        Other stock exchanges
+    ---------------------------*/
+    .other_stock_exchanges
+    {
+        margin: 48px -24px 0;
+        padding: 48px 24px 24px;
+    }
+
+
+    .other_stock_exchanges .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .other_stock_exchanges .item
+    {
+        padding: 16px;
+    }
+
+    .other_stock_exchanges .item .name
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .row + .row
+    {
+        margin-top: 32px;
+    }
+
+
+
+    footer .btns
+    {
+        width: 251px;
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    footer .btns > *
+    {
+        max-width: calc(100% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+    footer .btns a
+    {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+
+
+    footer .links
+    {
+        width: 240px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+
+
+
+
+    .wallet_ratings .list {
+        padding: 20px 0px;
+    }
+    .wallet_ratings .message {
+        display: none;
+    }
+
+
+}

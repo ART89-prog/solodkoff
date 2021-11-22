@@ -1,0 +1,573 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .block .block_data
+    {
+        padding-bottom: 48px;
+    }
+
+
+    .content_flex .content
+    {
+        width: 100%;
+        padding: 0;
+
+        background: none;
+        box-shadow: none;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .links,
+    header .menu
+    {
+        display: none;
+    }
+
+
+
+    header .rates
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 12px 24px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    header .rates::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    header .rates::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+    header .rates .item
+    {
+        display: inline-block;
+
+        vertical-align: top;
+    }
+
+    header .rates .item + .item
+    {
+        margin-left: 40px;
+    }
+
+    header .rates .item > *
+    {
+        display: inline-block;
+
+        vertical-align: top;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    aside > * + *
+    {
+        margin: 0;
+    }
+
+
+    aside .block_title
+    {
+        margin-bottom: 12px;
+    }
+
+
+    aside .subscribe
+    {
+        padding: 24px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 28px;
+        line-height: calc(var(--font_size_title) + 8px);
+
+        margin-top: 20px;
+    }
+
+    .page_title:before {
+        top: 15px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .cont
+    {
+        min-height: 380px;
+    }
+
+
+    .first_section .info
+    {
+        margin-right: auto;
+    }
+
+    .first_section .info .title
+    {
+        font-size: 36px;
+    }
+
+    .first_section .info .link
+    {
+        margin-top: 24px;
+    }
+
+    .first_section .info .link a
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .first_section .categories
+    {
+        width: 272px;
+        padding-left: 32px;
+    }
+
+    .first_section .categories .name
+    {
+        font-size: 20px;
+    }
+
+
+    .first_section .categories a:hover
+    {
+        padding-left: 0;
+    }
+
+    .first_section .categories a:hover .icon
+    {
+        display: none;
+
+        opacity: 0;
+    }
+
+
+
+    /*------------------------
+        Telegram subscribe
+    ------------------------*/
+    .telegram_subscribe
+    {
+        padding: 12px 0;
+    }
+
+
+    .telegram_subscribe .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .telegram_subscribe .link
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 8px;
+        margin-left: 0;
+        padding: 5px 20px;
+    }
+
+    .telegram_subscribe .link img
+    {
+        height: 24px;
+    }
+
+
+
+    /*-------------
+        Ratings
+    --------------*/
+    .ratings .tabs,
+    .ratings .list
+    {
+        padding: 0;
+    }
+
+
+    .ratings .item
+    {
+        padding-right: 24px;
+        padding-left: 64px;
+    }
+
+    .ratings .item:after
+    {
+        font-size: 20px;
+        line-height: 20px;
+
+        left: 28px;
+
+        height: 20px;
+    }
+
+
+
+    /*---------------
+        Education
+    ---------------*/
+    .education .row
+    {
+        margin-left: 0;
+    }
+
+    .education .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .education .item
+    {
+        padding-left: 272px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .columns > *
+    {
+        width: 100%;
+    }
+
+    .articles .columns > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .articles .list .article
+    {
+        width: 100%;
+    }
+
+    .articles .list .article .thumb
+    {
+        width: 132px;
+        height: 82px;
+    }
+
+    .articles .list .article .info
+    {
+        width: calc(100% - 152px);
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+
+    /*---------------
+        Last news
+    ---------------*/
+    .last_news .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*-------------------
+        Currency info
+    -------------------*/
+    .currency_info .block_title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Video review
+    ----------------------------------------*/
+    .stock_exchange_info .video_review .block_title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*---------------------------------------
+        Stock exchange info - Rating info
+    ---------------------------------------*/
+    .stock_exchange_info .rating_info .block_title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*--------------------------------------------
+        Stock exchange info - Description info
+    --------------------------------------------*/
+    .stock_exchange_info .description_info .block_title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Bonuses info
+    ----------------------------------------*/
+    .stock_exchange_info .bonuses_info .block_title
+    {
+        font-size: 26px;
+    }
+
+
+    .stock_exchange_info .bonuses_info .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+    .stock_exchange_info .bonuses_info .item
+    {
+        padding: 16px;
+    }
+
+
+
+    /*-----------------------------------------
+        Stock exchange info - Register info
+    -----------------------------------------*/
+    .stock_exchange_info .register_info .block_title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*-------------------------------------------
+        Stock exchange info - Withdrawal info
+    -------------------------------------------*/
+    .stock_exchange_info .withdrawal_info .block_title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Support info
+    ----------------------------------------*/
+    .stock_exchange_info .support_info .block_title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Reviews info
+    ----------------------------------------*/
+    .stock_exchange_info .reviews_info .block_title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*---------------------------
+        Other stock exchanges
+    ---------------------------*/
+    .other_stock_exchanges
+    {
+        margin: 48px 0 0;
+        padding: 0;
+
+        border: none;
+    }
+
+
+    .other_stock_exchanges .block_title
+    {
+        font-size: 26px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .desc
+    {
+        line-height: 20px;
+
+        width: 100%;
+        margin-bottom: 28px;
+    }
+
+
+    footer .socials a
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+    footer .socials .telegram_link img
+    {
+        width: 27px;
+    }
+
+    footer .socials .youtube_link img
+    {
+        width: 28px;
+    }
+
+
+    footer .btns
+    {
+        width: 227px;
+    }
+
+    footer .btns a
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        padding: 10px 20px;
+    }
+
+
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    footer .copy
+    {
+        width: calc(100% - 300px);
+        max-width: calc(100% - 300px);
+    }
+
+
+    footer .links
+    {
+        width: 213px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+
+
+
+    .wrap {
+        background: #fff;
+    }
+    .wallet_rus .block_title,
+    .types-of-bets_title {
+        font-size: 26px;
+    }
+    .types-of-bets {
+        margin-top: 33px;
+    }
+    .types-of-bets_title {
+        margin-bottom: 18px;
+    }
+    .basics_items > * {
+        width: calc(100%/5 - 25px);
+        margin-left: 25px;
+        margin-bottom: 32px;
+    }
+    .basics_items {
+        margin-left: -25px;
+    }
+    .block-author .head {
+        padding: 0;
+    }
+    .post_info .information__author .information__author-icon,
+    .post_info .information__author .information__descript-title,
+    .post_info .information__author .information__descript-name {
+        display: none;
+    }
+    .information__author-mob {
+        display: flex !important;
+    }
+    .information__time.inform,
+    .information__viewing.inform,
+    .information__author-mob.inform {
+        align-items: center;
+    }
+    .post_info .information {
+        align-items: center;
+    }
+}

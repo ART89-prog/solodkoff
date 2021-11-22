@@ -1,0 +1,812 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .mob_hide
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .accordion_item
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .breadcrumbs
+    {
+        font-size: 14px;
+    }
+
+
+    .page_title
+    {
+        font-size: 26px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 24px;
+    }
+
+    .text_block h3
+    {
+        font-size: 20px;
+    }
+
+
+    .text_block blockquote,
+    .text_block q
+    {
+        /*width: calc(100% + 48px);
+        max-width: calc(100% + 48px);*/
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 20px 24px;
+    }
+
+
+    .text_block img
+    {
+       /* width: calc(100% + 48px);
+        max-width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;*/
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .first_section .cont
+    {
+        min-height: 0;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+
+    .first_section .info .title
+    {
+        font-size: 32px;
+    }
+
+    .first_section .info .link
+    {
+        margin-top: 20px;
+    }
+
+    .first_section .info .link .icon
+    {
+        width: 20px;
+        margin-left: 16px;
+    }
+
+
+    .first_section .categories
+    {
+        width: 100%;
+        margin-top: 40px;
+        padding-left: 44px;
+    }
+
+    .first_section .categories .name
+    {
+        font-size: 19px;
+    }
+
+    .first_section .categories > *:before
+    {
+        top: 4px;
+    }
+
+    .first_section .categories > *:after
+    {
+        top: 15px;
+
+        height: calc(100% + 9px);
+    }
+
+
+
+    /*------------------------
+        Telegram subscribe
+    ------------------------*/
+    .telegram_subscribe
+    {
+        margin-bottom: 48px;
+    }
+
+
+
+    /*-------------
+        Ratings
+    --------------*/
+    .ratings .tabs
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        max-width: calc(100% + 48px);
+        margin: 0 -24px 20px;
+        padding: 0 24px 2px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    .ratings .tabs::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .ratings .tabs::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+    .ratings .tabs button
+    {
+        display: inline-block;
+
+        margin: 0;
+
+        vertical-align: top;
+    }
+
+    .ratings .tabs button + button
+    {
+        margin-left: 8px;
+    }
+
+
+    .ratings .item
+    {
+        min-height: 0;
+        padding: 0;
+
+        border-radius: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+    .ratings .item:before,
+    .ratings .item:after
+    {
+        display: none;
+    }
+
+    .ratings .item .rating
+    {
+        display: none;
+    }
+
+    .ratings .item .btns .link
+    {
+        min-width: auto;
+        padding: 8px 20px;
+    }
+
+    .ratings .item .btns .link:before
+    {
+        display: none;
+    }
+
+    .ratings .item .btns .link span
+    {
+        display: none;
+    }
+
+    .ratings .item .btns .link img
+    {
+        display: block;
+
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*---------------
+        Education
+    ---------------*/
+    .education .item .thumb
+    {
+        width: 130%;
+        height: 200px;
+    }
+
+    .education .item .thumb img
+    {
+        object-position: 0 50%;
+    }
+
+
+    .education .item
+    {
+        padding-top: 224px;
+        padding-left: 24px;
+    }
+
+    .education .item .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .education .item .list a
+    {
+        line-height: 18px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .big_article .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: 100%;
+    }
+
+
+
+    .articles .row
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    /*---------------
+        Last news
+    ---------------*/
+    .last_news .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+    .last_news .row > *
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Currency info
+    -------------------*/
+    .currency_info .block_title
+    {
+        font-size: 24px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*-----------------------------------
+        Currency info - Course widget
+    -----------------------------------*/
+    .currency_info .course_widget
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*---------------------------
+        Currency info - links
+    ---------------------------*/
+    .currency_info .links
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------------------------
+        Currency info - Where buy
+    -------------------------------*/
+    .currency_info .where_buy .row > *
+    {
+        width: calc(33.333% - 16px);
+        margin-bottom: 20px;
+        margin-left: 16px;
+    }
+
+
+
+    /*-------------------------
+        Stock exchange head
+    -------------------------*/
+    .stock_exchange_head .head
+    {
+        min-height: 0;
+        padding-right: 20px;
+    }
+
+
+    .stock_exchange_head .head .logo
+    {
+        left: -104px;
+    }
+
+
+    .stock_exchange_head .head .rating
+    {
+        font-size: 28px;
+        line-height: 36px;
+
+        width: 86px;
+        height: 99px;
+    }
+
+
+
+    .stock_exchange_head .links .row > *
+    {
+        width: calc(25% - 20px);
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Video review
+    ----------------------------------------*/
+    .stock_exchange_info .video_review .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .stock_exchange_info .video_review .video
+    {
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 20px 24px;
+    }
+
+
+
+    /*-----------------------------------
+        Stock exchange info - Anchors
+    -----------------------------------*/
+    .stock_exchange_info .anchors .row
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+    /*---------------------------------------
+        Stock exchange info - Rating info
+    ---------------------------------------*/
+    .stock_exchange_info .rating_info .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .stock_exchange_info .rating_info .list .row
+    {
+        margin-bottom: -12px;
+        margin-left: -20px;
+
+        justify-content: flex-start;
+    }
+
+    .stock_exchange_info .rating_info .list .row > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 12px;
+        margin-left: 20px;
+    }
+
+    .stock_exchange_info .rating_info .list .sep
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------------------------------
+        Stock exchange info - Description info
+    --------------------------------------------*/
+    .stock_exchange_info .description_info .block_title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Bonuses info
+    ----------------------------------------*/
+    .stock_exchange_info .bonuses_info .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .stock_exchange_info .bonuses_info .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .stock_exchange_info .bonuses_info .item .btn
+    {
+        padding: 12px 16px;
+    }
+
+
+
+    /*-----------------------------------------
+        Stock exchange info - Register info
+    -----------------------------------------*/
+    .stock_exchange_info .register_info .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .stock_exchange_info .register_info .promocode .logo
+    {
+        width: 100%;
+    }
+
+    .stock_exchange_info .register_info .promocode .logo img
+    {
+        width: auto;
+    }
+
+
+    .stock_exchange_info .register_info .promocode .data
+    {
+        width: 100%;
+        padding: 24px;
+    }
+
+
+
+    /*-------------------------------------------
+        Stock exchange info - Withdrawal info
+    -------------------------------------------*/
+    .stock_exchange_info .withdrawal_info .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .stock_exchange_info .withdrawal_info .vals
+    {
+        font-size: 14px;
+
+        width: calc(100% + 48px);
+        margin-top: 28px;
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 12px 24px;
+    }
+
+
+    .stock_exchange_info .withdrawal_info .payments
+    {
+        margin-top: 28px;
+    }
+
+    .stock_exchange_info .withdrawal_info .payments .row > *
+    {
+        width: calc(25% - 12px);
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Support info
+    ----------------------------------------*/
+    .stock_exchange_info .support_info .block_title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Reviews info
+    ----------------------------------------*/
+    .stock_exchange_info .reviews_info .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .stock_exchange_info .reviews_info .add_review form
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 20px 24px;
+    }
+
+
+
+    /*---------------------------
+        Other stock exchanges
+    ---------------------------*/
+    .other_stock_exchanges .block_title
+    {
+        font-size: 24px;
+    }
+
+
+    .other_stock_exchanges .row > *
+    {
+        width: calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+
+    .other_stock_exchanges .item
+    {
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .desc
+    {
+        margin-bottom: 24px;
+
+        text-align: center;
+    }
+
+
+    footer .socials a
+    {
+        width: 44px;
+        height: 44px;
+    }
+
+
+    footer .btns
+    {
+        width: auto;
+    }
+
+
+    footer .logo
+    {
+        margin-bottom: 24px;
+    }
+
+    footer .logo img
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .copy
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 24px;
+
+        text-align: center;
+
+        order: 3;
+        margin-bottom: 24px;
+    }
+
+
+    footer .links
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+
+
+
+
+
+
+
+    
+    .rating-mob {
+        display: block !important;
+    }
+    .wallet_ratings .item .btns {
+        margin-left: 10px;
+    }
+    .wallet_rus .block_title,
+    .types-of-bets_title {
+        font-size: 22px;
+    }
+    .sort-services_links-mob {
+        display: block !important;
+    }
+    .sort-services_links {
+        display: none;
+    }
+    .instument_info-top {
+        flex-direction: column;
+    }
+    .instument_info-right,
+    .instument_info-left {
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .instument_info .btns {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin-top: 24px;
+    }
+    .instument_info-item {
+        padding: 32px 25px 10px;
+    }
+    .instument_info .btns .link {
+        font-size: 11px;
+    }
+    .content .posts .post {
+        flex-direction: column;
+    }
+    .posts .post .thumb {
+        width: 100%;
+    }
+    .posts .post .info {    
+        width: 100%;
+    }
+    .content .posts .post:first-child {
+        margin-top: 37px;
+    }
+    .content .posts .post {
+        margin-bottom: 0px;
+        margin-top: 21px;
+    }
+    .posts .post .name {
+        order: 1;
+    }
+    .posts .post .desc {
+        order: 1;
+    }
+    .posts .post .info {
+        margin-top: 11px;
+    }
+    .posts .post .authors {
+        margin-bottom: 17px;
+    }
+    .posts .post .name a {
+        margin-bottom: 12px;
+    }
+    .types-of-bets_links .tabs {
+        flex-direction: column;
+    }
+    .types-of-bets_links .tabs > * {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .types-of-bets_links .tabs button {
+        margin-bottom: 21px;
+        height: 44px;
+        padding: 5px 0 0 25px;
+        justify-content: flex-start;
+    }
+    .types-of-bets_links .tabs {
+        margin-left: 0;
+    }
+    .basics_items > * {
+        width: calc(100%/3 - 25px);
+    }
+    .service_info-item .instument_info-right {
+        margin-right: 0px;
+        justify-content: flex-start;
+    }
+    .service_info-item .btns {
+        justify-content: flex-start;
+        margin-top: 16px;
+    }
+    .service_info-item {
+        padding: 0;
+        box-shadow: none;
+    }
+
+    .currency_info .course_widget{
+        overflow: auto;
+        width: calc(100% + 48px);
+        padding:5px 0;       
+        white-space: nowrap;
+        display: block;
+    }
+
+    .course_widget > * {
+        display: inline-block;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    .course_widget .volume{
+        display: inline-flex;
+    }
+
+
+    .stock_exchange_info .video_review .thumb iframe{
+        width: 100%;
+        height: 380px;
+    }
+
+    table .ratings .item .btns{
+
+        margin: 20px auto;
+            width: 100%;
+    }
+
+
+
+    
+}

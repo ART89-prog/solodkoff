@@ -1,0 +1,645 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion .accordion_item .head
+    {
+        padding: 16px 64px 16px 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block ol li,
+    .text_block ul li
+    {
+        padding-left: 24px;
+    }
+
+    .text_block ol li:before
+    {
+        left: 0;
+    }
+
+    .text_block ul li:before
+    {
+        top: 9px;
+        left: 4px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section .info .title
+    {
+        font-size: 30px;
+    }
+
+
+
+    /*------------------------
+        Telegram subscribe
+    ------------------------*/
+    .telegram_subscribe .title
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*-------------
+        Ratings
+    --------------*/
+    .ratings .item .logo
+    {
+        width: 115px;
+    }
+
+
+    .ratings .item .price
+    {
+        font-size: 16px;
+
+        letter-spacing: .025em;
+    }
+
+
+    .ratings .item .btns .link
+    {
+        padding: 6px 12px;
+    }
+
+    .ratings .item .btns > * + *
+    {
+        margin-left: 8px;
+    }
+
+
+
+    /*---------------
+        Education
+    ---------------*/
+    .education .item
+    {
+        padding: 180px 20px 20px;
+    }
+
+    .education .item .thumb
+    {
+        width: 130%;
+        height: 160px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .list .article .thumb
+    {
+        width: 124px;
+        height: 80px;
+    }
+
+    .articles .list .article .info
+    {
+        width: calc(100% - 140px);
+    }
+
+
+
+    .articles .big_article .info
+    {
+        padding: 16px;
+    }
+
+    .articles .big_article .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    .articles .row
+    {
+        margin-left: 0;
+    }
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .articles .row .article .info
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-------------------------------
+        Currency info - Main data
+    -------------------------------*/
+    .currency_info .main_data .info .logo
+    {
+        width: 72px;
+    }
+
+    .currency_info .main_data .info .rate
+    {
+        font-size: 17px;
+
+        width: calc(100% - 92px);
+        padding: 0;
+
+        border: none;
+    }
+
+
+
+    /*---------------------------
+        Currency info - links
+    ---------------------------*/
+    .currency_info .links .item > a,
+    .currency_info .links .item > .btn
+    {
+        padding: 3px 15px;
+    }
+
+
+
+    /*-------------------------------
+        Currency info - Where buy
+    -------------------------------*/
+    .currency_info .where_buy .row > *
+    {
+        width: calc(50% - 16px);
+    }
+
+
+    .currency_info .where_buy .item
+    {
+        padding: 16px 20px 20px;
+    }
+
+
+
+    /*-------------------------
+        Stock exchange head
+    -------------------------*/
+    .stock_exchange_head .head
+    {
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+        padding: 0 12px;
+    }
+
+    .stock_exchange_head .head .logo
+    {
+        top: 5%;
+        left: -64px;
+
+        height: 90%;
+    }
+
+    .stock_exchange_head .head .rating
+    {
+        transform: scale(.8);
+    }
+
+
+
+    .stock_exchange_head .info .btns > * + *
+    {
+        margin-left: 12px;
+    }
+
+    .stock_exchange_head .info .btns .link
+    {
+        font-size: 12px;
+
+        width: calc(50% - 6px);
+        padding: 12px;
+    }
+
+
+
+    .stock_exchange_head .links .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+
+    /*----------------------------------------
+        Stock exchange info - Bonuses info
+    ----------------------------------------*/
+    .stock_exchange_info .bonuses_info .row
+    {
+        margin-left: 0;
+    }
+
+    .stock_exchange_info .bonuses_info .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .stock_exchange_info .bonuses_info .item
+    {
+        padding: 24px;
+    }
+
+
+
+    /*-------------------------------------------
+        Stock exchange info - Withdrawal info
+    -------------------------------------------*/
+    .stock_exchange_info .withdrawal_info .vals
+    {
+        font-size: 12px;
+    }
+
+
+    .stock_exchange_info .withdrawal_info .payments .row > *
+    {
+        width: calc(33.333% - 12px);
+    }
+
+
+
+    /*---------------------------
+        Other stock exchanges
+    ---------------------------*/
+    .other_stock_exchanges .row
+    {
+        margin-left: 0;
+    }
+
+    .other_stock_exchanges .row > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .socials
+    {
+        width: 100%;
+        margin-bottom: 24px;
+
+        justify-content: center;
+    }
+
+
+    footer .btns
+    {
+        width: calc(100% + 12px);
+        max-width: calc(100% + 12px);
+
+        justify-content: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+
+
+
+    .wallet_rus .block_title,
+    .types-of-bets_title {
+        font-size: 18px;
+    }
+    .instument .text_block {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 8px;
+    }
+    .sort-services {
+        margin: 0px 0 19px;
+    }
+    .sort-services_title {
+        font-size: 17px;
+        line-height: 28px;
+        margin-bottom: 14px;
+    }
+    .instument .page_head {
+        margin-bottom: 18px;
+    }
+    .instument_info-top {
+        margin-bottom: 14px;
+    }
+    .pagination {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+    .instument_info-item {
+        padding: 32px 6px 10px;
+        margin-bottom: 16px;
+    }
+    .posts .post .name {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .posts .post .desc {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .basics_items > * {
+        width: calc(100%/2 - 25px);
+    }
+    .basics_title {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 27px;
+    }
+    .basics_item-name {
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .academy {
+        padding: 20px 0;       
+        margin-top: 16px;
+        margin-bottom: 17px;
+    }
+    .academy_title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .post_info .information > * {
+        margin-right: 9px;
+    }
+    .post_info .icon {
+        margin-right: 7px;
+    }
+    .post_info .information__time-icon img {
+        width: 18px;
+        height: 18px;
+    }
+    .information__author-mob .information__author-icon img {
+        width: 18px;
+        height: 18px;
+    }
+    .post_info .information__viewing-icon img {
+        width: 21px;
+        height: 14px;
+    }
+    .post_info .information {
+        margin-top: 20px;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    .post_info .content_links li {
+        font-size: 14px;
+    }
+    .post_info .content_links {
+        padding: 16px 17px 20px;
+        margin-bottom: 12px;
+    }
+    .post_info .information__descript-text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .post_info .text-mob {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .instument_info-right,
+    .instument_info-left {
+        justify-content: space-between;
+    }
+    .instument_info .btns {
+        justify-content: space-between;
+    }
+    .wallet_rus {
+        margin-bottom: 20px;
+    }
+
+    .mobil_menu{
+        display: flex;
+        height: 50px;
+        box-shadow: 0 7px 9px rgb(0 0 0 / 50%);
+        border-bottom: 1px solid #ff9a00;
+        background-color: #1e1e1e;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        white-space: nowrap;
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+        overflow: auto;
+        position: fixed;
+        width: 100%;
+        top: 42px;
+    }
+
+    .mobil_menu a{
+        margin-left:10px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        text-decoration: none;
+    }
+
+    .mobil_menu a:last-child{
+        margin-right: 20px;
+    }
+
+    html.custom_scroll  .mobil_menu::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    html.custom_scroll  .mobil_menu::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+    .nav_menu{
+        display: flex;
+        height: 47px;
+        box-shadow: -1px -2px 4px rgb(163 98 0 / 80%);
+        background-color: #090909;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 2px solid #ff9a00;
+        z-index: 100;
+        padding: 0 15px;
+    }
+
+    .nav_menu a{
+        color: #ff9a00;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 400;      
+        text-transform: uppercase;
+        letter-spacing: 0.6px;
+        text-decoration: none;
+    }
+    .footer_mobile li{
+    	list-style: none;
+    }
+
+    .footer_mobile{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .footer_mobile a{
+        height: 42px;
+        border-radius: 3px;
+        border: 1px solid #7a7a7a;
+        background-color: #1e1e1e;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+        width: 100%;
+        display: block;
+        margin-bottom: 8px;
+        text-align: center;
+        line-height: 48px;
+        text-decoration: none;
+        background-image: url(../images/telegram.png);
+        background-repeat: no-repeat;
+        background-position: 95%;
+    }
+
+    footer .btns a{
+        height: 42px;
+        border-radius: 3px;
+        border: 1px solid #ff9a00;
+        background-color: #1e1e1e;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+        width: 100%;
+        display: block;
+        margin-bottom: 8px;
+        text-align: center;
+        line-height: 48px;
+        text-decoration: none;
+        padding:0px;
+    }
+
+    footer .btns > * {
+        max-width: 100%;
+    }
+
+    footer .btns{
+        display: block;
+    }
+
+    header{
+        margin-top:92px;
+    }
+
+    .text_block #toc_container{
+        padding: 16px 17px 20px;
+         margin-bottom: 12px;
+    }
+
+    .text_block #toc_container ul li a {
+        font-size: 14px;
+    }
+
+    .form .columns > *.width1of3{
+        width: 100%;
+    }
+
+    .reviews_info .add_review form .field{
+        width: calc(100% - 61px);
+    }
+
+    .reviews_info .add_review form .submit_btn{
+        padding: 0 8px;
+    }
+
+    .reviews_info .block_title{
+            font-size: 20px;
+    }
+
+    #cancel-comment-reply-link{
+        font-size: 16px;
+    }
+
+    .ratings.coins .item .logo{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+
+}
